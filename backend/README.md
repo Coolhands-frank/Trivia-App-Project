@@ -258,3 +258,6 @@ The API will return 4 error types when requests fails:
   "totalQuestions": 3
 } 
 ```
+remember to fill database with "psql -U postgres -d trivia -f trivia.psql -W" password: coolhands
+
+"psql -U username -d datbase-name -f /path/to/trivia.psql -W"
